@@ -1,6 +1,6 @@
 import re
 
-hand = open("courass/courass.txt")
+hand = open("coursera.txt")
 x=list()
 for line in hand:
      y = re.findall('[0-9]+',line)
